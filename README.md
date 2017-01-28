@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+You must set your Drip API Key and API secret as environment variables. To do this using the .env gem (included), write the following to a file at RAILS_ROOT/.env: 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+DRIP_KEY="xxx"
+DRIP_SECRET="yyy"
